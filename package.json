@@ -1,0 +1,26 @@
+{
+  "name": "estruc",
+  "version": "1.0.0",
+  "description": "Calculos de materiales y costos para estructuras de panel solar",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RF",
+  "license": "ISC",
+  "devDependencies": {
+    "elm-tooling": "^1.8.0",
+    "prettier": "^2.6.2",
+    "prettier-plugin-elm": "^0.8.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "proseWrap": "always",
+    "trailingComma": "all",
+    "quoteProps": "consistent",
+    "plugins": [
+      "./node_modules/prettier-plugin-elm"
+    ]
+  }
+}
